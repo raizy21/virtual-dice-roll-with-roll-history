@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+#dice {
+  font-size: 56px;
+  color: #ff0000;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20p;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#history {
+  margin-top: 50px;
+}
+
+.history-entry {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

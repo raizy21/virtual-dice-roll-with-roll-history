@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Dice Roll 3 (Bootstrap) (Roll History)</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container text-center mt-5">
+      <h1>Virtual Dice Roll with Bootstrap and Roll History</h1>
+      <button class="btn btn-warning text-black mt-3" onclick="rollDice()">
+        Roll the Dice
+      </button>
+      <p id="dice" class="mt-3 display-4">?</p>
+
+      <div id="history" class="mt-4">
+        <h2>Roll History</h2>
+        <!-- history entries will be added here -->
+      </div>
+    </div>
+
+    <!-- bootstrap js and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
